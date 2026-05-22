@@ -97,12 +97,6 @@ h4 {
     border-bottom: 2px solid var(--accent);
     text-shadow: 0 0 10px var(--glow-accent);
 }
-.theme {
-    display: block;
-    position: absolute;
-    right: 5%;
-    top: 3%;
-}
 .content {
     margin: 4% auto;
     border-radius: 16px;
@@ -254,4 +248,12 @@ a:hover {
     #projects li:hover {
         transform: translateY(-4px);
     }
+}
+.titles {
+    display: grid;
+    grid-template-columns: 80% auto;
+}
+.titles a{
+    place-self: end;
+    font-size: medium
 }
